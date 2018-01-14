@@ -43,3 +43,7 @@ int main(){
 	sony.pendapat	(" Sony 	: Lumayan Lama , Spek Menengah , Bintang 4 ");
 	iphone.pendapat	(" Iphone 	: Tahan Lama , Spek Tinggi , Bintang 4.7 ");
 } 
+	void hp::pendapat(string survey){
+		cout<< " - "<<survey<<"Lah hehe \n";
+}
+
