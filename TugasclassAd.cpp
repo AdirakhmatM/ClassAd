@@ -14,36 +14,28 @@ class hp{
 int main(){
 	hp nokia, xiaomi, samsung, sony, iphone;
 	
-	nokia.kualitas ="Sangat Baik 	";
-	xiaomi.kualitas ="Bagus 		";
-	samsung.kualitas ="Sangat Bagus 	";
-	sony.kualitas ="Baik 		";
-	iphone.kualitas ="Baik dan Bagus 	";
+	nokia.kualitas ="Nokia : Kualitas Sangat Baik, ";
+	xiaomi.kualitas ="Xiaomi : KualitasBagus, ";
+	samsung.kualitas ="Samsung : Kualitas Sangat Bagus, ";
+	sony.kualitas ="Sony : Kualitas Baik, ";
+	iphone.kualitas ="Iphone : Kualitas Baik dan Bagus, ";
 	
-	nokia.kelas ="Mid End - High End 		  |\n";
-	xiaomi.kelas ="Mid End - Low End 		  |\n";
-	samsung.kelas ="Mid End - High End 		  |\n";
-	sony.kelas ="Mid End - High End - Low End  |\n";
-	iphone.kelas ="High End 			  |\n";
+	nokia.kelas =" Kelas Mid End - High End, ";
+	xiaomi.kelas =" Kelas Mid End - Low End, ";
+	samsung.kelas =" Kelas Mid End - High End, ";
+	sony.kelas =" Kelas Mid End - High End - Low End, ";
+	iphone.kelas =" Kelas High End, ";
 	
-	cout << " Handphone \n";
-	cout << "+---------------+--------------------------------+----------------------------------------+\n";
-	cout << "| Nokia		" << "| Kualitas : " <<(nokia.kualitas)	<<" | " <<" Kelas : " << (nokia.kelas);
-	cout << "| Xiaomi 	" << "| Kualitas : " <<(xiaomi.kualitas)	<<" | " <<" Kelas : " << (xiaomi.kelas);
-	cout << "| Samsung	" << "| Kualitas : " <<(samsung.kualitas)<<" | " <<" Kelas : " << (samsung.kelas);
-	cout << "| Sony 		" << "| Kualitas : " <<(sony.kualitas)	<<" | " <<" Kelas : " << (sony.kelas);
-	cout << "| Iphone 	" << "| Kualitas : " <<(iphone.kualitas)	<<" | " <<" Kelas : " << (iphone.kelas);
-	cout << "+---------------+--------------------------------+----------------------------------------+\n";
-	
-	cout << " Survey Handphone : \n";
-	cout << " ----------------- \n";
-	nokia.pendapat	(" Nokia 	: Tahan Lama , Spek Menengah , Bintang 4 ");
-	xiaomi.pendapat	(" Xiaomi 	: Lumayan Lama , Spek Tinggi , Bintang 4 ");
-	samsung.pendapat(" Samsung 	: Tahan Lama , Spek Menengah Ke Atas , Bintang 4.5 ");
-	sony.pendapat	(" Sony 	: Lumayan Lama , Spek Menengah , Bintang 4 ");
-	iphone.pendapat	(" Iphone 	: Tahan Lama , Spek Tinggi , Bintang 4.7 ");
+	nokia.pendapat	(" Tahan Lama , Spek Menengah , Bintang 4 ");
+	xiaomi.pendapat	(" Lumayan Lama , Spek Tinggi , Bintang 4 ");
+	samsung.pendapat(" Tahan Lama , Spek Menengah Ke Atas , Bintang 4.5 ");
+	sony.pendapat	(" Lumayan Lama , Spek Menengah , Bintang 4 ");
+	iphone.pendapat	(" Tahan Lama , Spek Tinggi , Bintang 4.7 ");
 } 
 	void hp::pendapat(string survey){
+		cout<< " - "<<kualitas<<" ";
+		cout<< " "<<kelas<<" ";
 		cout<< " - "<<survey<<"Lah hehe \n";
+	
 }
 
